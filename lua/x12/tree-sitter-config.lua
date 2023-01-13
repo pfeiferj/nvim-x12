@@ -1,7 +1,7 @@
 local M = {}
 function M.register_treesitter()
   local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
-  parser_config.hurl = {
+  parser_config.x12 = {
     install_info = {
       url = "https://github.com/pfeiferj/tree-sitter-x12.git", -- local path or git repo
       files = {"src/parser.c", "src/scanner.cc"},
